@@ -1,0 +1,8 @@
+# exclude rosbag files
+*.bag
+*.db3
+
+
+# exclude rosbag directories
+kalibr/*/record_static/
+kalibr/*/record_dynamic/

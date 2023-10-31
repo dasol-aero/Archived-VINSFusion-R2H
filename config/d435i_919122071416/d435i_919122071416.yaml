@@ -1,0 +1,49 @@
+
+
+# Color ----------------------------------------------------------------------------------------- #
+enable_color: true
+rgb_camera.profile: 320x180x30
+
+
+# Depth ----------------------------------------------------------------------------------------- #
+enable_depth: true
+enable_infra1: true
+enable_infra2: true
+depth_module.profile: 848x480x15
+
+
+# Point Cloud ----------------------------------------------------------------------------------- #
+pointcloud.enable: true
+pointcloud.stream_filter: 0
+pointcloud.allow_no_texture_points: true
+clip_distance: 6.0
+
+decimation_filter.enable: true
+decimation_filter.filter_magnitude: 4
+
+spatial_filter.enable: true
+spatial_filter.filter_magnitude: 2       # default: 2
+spatial_filter.filter_smooth_alpha: 0.5  # default: 0.5
+spatial_filter.filter_smooth_delta: 20   # default: 20
+
+temporal_filter.enable: true
+temporal_filter.filter_smooth_alpha: 0.4  # default: 0.4
+temporal_filter.filter_smooth_delta: 20   # default: 20
+
+disparity_filter.enable: true
+disparity_to_depth.enable: true
+
+
+# IMU ------------------------------------------------------------------------------------------- #
+enable_gyro: true
+gyro_fps: 200
+
+enable_accel: true
+accel_fps: 250
+
+unite_imu_method: 2
+
+
+# Sync ------------------------------------------------------------------------------------------ #
+enable_sync: true
+hold_back_imu_for_frames: true

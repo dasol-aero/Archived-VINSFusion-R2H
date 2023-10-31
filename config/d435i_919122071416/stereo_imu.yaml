@@ -26,18 +26,18 @@ body_T_cam0: !!opencv-matrix
     rows: 4
     cols: 4
     dt: d
-    data: [ 0.99998747, -0.00476206,  0.00154615, -0.00654690,
-            0.00477756,  0.99993680, -0.01017708,  0.00678957,
-           -0.00149759,  0.01018434,  0.99994702,  0.01962800,
+    data: [ 0.99999448, -0.00105729,  0.00314941, -0.01202494,
+            0.00102239,  0.99993826,  0.01106449,  0.00280029,
+           -0.00316091, -0.01106121,  0.99993383,  0.01390413,
             0.0,         0.0,         0.0,         1.0 ]
 
 body_T_cam1: !!opencv-matrix
     rows: 4
     cols: 4
     dt: d
-    data: [ 0.99998879, -0.00450877, -0.00144332, 0.04324947,
-            0.00449280,  0.99993064, -0.01088715, 0.00705532,
-            0.00149231,  0.01088054,  0.99993969, 0.01965991,
+    data: [ 0.99999781, -0.00051365, -0.00202643,  0.03778333,
+            0.00053472,  0.99994566,  0.01041089,  0.00289735,
+            0.00202097, -0.01041195,  0.99994375,  0.01362992,
             0.0,         0.0,         0.0,         1.0 ]
 
 
@@ -65,7 +65,7 @@ acc_n: 0.1             # accelerometer measurement noise standard deviation
 gyr_n: 0.01            # gyroscope measurement noise standard deviation
 acc_w: 0.001           # accelerometer bias random work noise standard deviation
 gyr_w: 0.0001          # gyroscope bias random work noise standard deviation
-g_norm: 9.80655        # gravity magnitude
+g_norm: 9.806383       # gravity magnitude
 
 
 #unsynchronization parameters

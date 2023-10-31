@@ -3,5 +3,5 @@ kalibr_calibrate_imu_camera \
   --target aprilgrid_A4.yaml \
   --cam camchain-static.yaml \
   --imu imu.yaml \
-  --imu-models scale-misalignment \
+  --imu-models calibrated \
   --bag dynamic.bag

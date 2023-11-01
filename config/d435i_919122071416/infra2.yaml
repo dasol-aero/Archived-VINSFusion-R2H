@@ -5,10 +5,14 @@ camera_name: camera
 image_width:  848
 image_height: 480
 distortion_parameters:
-   k1: 0.010927216835380971
-   k2: -0.0013637810344893349
-   p1: 0.002110268421356937
-   p2: -0.0004237120942264631
+#  k1: 0.010927216835380971
+#  k2: -0.0013637810344893349
+#  p1: 0.002110268421356937
+#  p2: -0.0004237120942264631
+   k1: 0.0
+   k2: 0.0
+   p1: 0.0
+   p2: 0.0  # all zero distortion parameters show better performance, but don't know why (2023. 11. 1)
 projection_parameters:
    fx: 433.39351120815144
    fy: 433.2370417560903

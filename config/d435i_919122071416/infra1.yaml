@@ -5,16 +5,14 @@ camera_name: camera
 image_width:  848
 image_height: 480
 distortion_parameters:
-#  k1: 0.011569030388980661
-#  k2: -0.0015832486459974242
-#  p1: 0.0024461019999247584
-#  p2: 0.0007311430893214606
-   k1: 0.0
-   k2: 0.0
-   p1: 0.0
-   p2: 0.0  # all zero distortion parameters show better performance, but don't know why (2023. 11. 1)
+  # from "/camera/infra1/camera_info" (RealSense factory calibration data)
+  k1: 0.0
+  k2: 0.0
+  p1: 0.0
+  p2: 0.0
 projection_parameters:
-   fx: 432.8773624689316
-   fy: 432.69754323460546
-   cx: 425.86902417211377
-   cy: 242.83143630610957
+  # from "/camera/infra1/camera_info" (RealSense factory calibration data)
+  fx: 420.9756774902344
+  fy: 420.9756774902344
+  cx: 424.884765625
+  cy: 237.592529296875

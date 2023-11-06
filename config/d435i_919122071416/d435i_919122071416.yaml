@@ -41,7 +41,7 @@ gyro_fps: 200
 enable_accel: true
 accel_fps: 250
 
-unite_imu_method: 2
+unite_imu_method: 1  # 1: copy,  2: linear interpolation
 
 
 # Sync ------------------------------------------------------------------------------------------ #

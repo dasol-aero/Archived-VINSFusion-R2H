@@ -47,3 +47,4 @@ unite_imu_method: 1  # 1: copy,  2: linear interpolation
 # Sync ------------------------------------------------------------------------------------------ #
 enable_sync: true
 hold_back_imu_for_frames: true
+
